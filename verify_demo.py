@@ -118,11 +118,12 @@ def run(target):
 
         doc, result = history.load(papers[-1])
         invalid = Controller(ModelFixture("bad_source"))
+        unstructured = dict(doc, chunks=[dict(c, heading=False) for c in doc["chunks"]])
         first = Budget(300, 12)
-        assert invalid.analyze(doc, first)["needs_range"]
+        assert invalid.analyze(unstructured, first)["needs_range"]
         retry = Budget(300, 12)
         allowed = {c["id"] for c in doc["chunks"] if c["page"] == 2}
-        failed = invalid.analyze(doc, retry, allowed=allowed, retry=True)
+        failed = invalid.analyze(unstructured, retry, allowed=allowed, retry=True)
         assert not failed["needs_range"] and not failed["locations"]
         assert any(e.get("exact") is False for e in retry.trace)
         emit("failure_bad_citation.json", dict(initial=first.trace, retry=retry.trace))
