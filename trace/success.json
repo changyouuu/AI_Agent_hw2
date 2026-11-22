@@ -1,0 +1,382 @@
+{
+  "analysis": [
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.016,
+      "calls": 0,
+      "page": 1,
+      "columns": 1,
+      "blocks": 2
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.016,
+      "calls": 0,
+      "page": 2,
+      "columns": 2,
+      "blocks": 5
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Retrieval",
+      "tool": "keyword_and_tfidf",
+      "elapsed_s": 0.032,
+      "calls": 0,
+      "scope": "同篇全文",
+      "fragments": [
+        {
+          "id": 1,
+          "page": 1
+        },
+        {
+          "id": 2,
+          "page": 1
+        },
+        {
+          "id": 3,
+          "page": 2
+        },
+        {
+          "id": 4,
+          "page": 2
+        },
+        {
+          "id": 5,
+          "page": 2
+        },
+        {
+          "id": 6,
+          "page": 2
+        },
+        {
+          "id": 7,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Method Analysis",
+      "tool": "locate",
+      "elapsed_s": 0.032,
+      "calls": 1,
+      "status": "fixture"
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 0.032,
+      "calls": 1,
+      "label": "location_0",
+      "id": 4,
+      "page": 2,
+      "exact": true
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Evidence Verification",
+      "tool": "check_support",
+      "elapsed_s": 0.032,
+      "calls": 2,
+      "status": "fixture"
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Evidence Verification",
+      "tool": "support_result",
+      "elapsed_s": 0.032,
+      "calls": 2,
+      "checked": [
+        "location_0"
+      ],
+      "supported": [
+        "location_0"
+      ]
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Retrieval",
+      "tool": "keyword_and_tfidf",
+      "elapsed_s": 0.032,
+      "calls": 2,
+      "scope": "方法章節",
+      "fragments": [
+        {
+          "id": 3,
+          "page": 2
+        },
+        {
+          "id": 4,
+          "page": 2
+        },
+        {
+          "id": 5,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Method Analysis",
+      "tool": "steps",
+      "elapsed_s": 0.032,
+      "calls": 3,
+      "status": "fixture"
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 0.032,
+      "calls": 3,
+      "label": "0.what",
+      "id": 4,
+      "page": 2,
+      "exact": true
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 0.032,
+      "calls": 3,
+      "label": "0.how",
+      "id": 4,
+      "page": 2,
+      "exact": true
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Evidence Verification",
+      "tool": "check_support",
+      "elapsed_s": 0.032,
+      "calls": 4,
+      "status": "fixture"
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Evidence Verification",
+      "tool": "support_result",
+      "elapsed_s": 0.032,
+      "calls": 4,
+      "checked": [
+        "0.what",
+        "0.how"
+      ],
+      "supported": [
+        "0.what",
+        "0.how"
+      ]
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Retrieval",
+      "tool": "keyword_and_tfidf",
+      "elapsed_s": 0.032,
+      "calls": 4,
+      "scope": "同篇全文",
+      "fragments": [
+        {
+          "id": 1,
+          "page": 1
+        },
+        {
+          "id": 2,
+          "page": 1
+        },
+        {
+          "id": 3,
+          "page": 2
+        },
+        {
+          "id": 4,
+          "page": 2
+        },
+        {
+          "id": 5,
+          "page": 2
+        },
+        {
+          "id": 6,
+          "page": 2
+        },
+        {
+          "id": 7,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Method Analysis",
+      "tool": "repair_steps",
+      "elapsed_s": 0.032,
+      "calls": 5,
+      "status": "fixture"
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 0.032,
+      "calls": 5,
+      "label": "0.why",
+      "id": 2,
+      "page": 1,
+      "exact": true
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Evidence Verification",
+      "tool": "check_support",
+      "elapsed_s": 0.032,
+      "calls": 6,
+      "status": "fixture"
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Evidence Verification",
+      "tool": "support_result",
+      "elapsed_s": 0.032,
+      "calls": 6,
+      "checked": [
+        "0.why"
+      ],
+      "supported": [
+        "0.why"
+      ]
+    },
+    {
+      "task": "deb698a498034468b3c5c220123c0d98",
+      "agent": "Controller",
+      "tool": "stop",
+      "elapsed_s": 0.032,
+      "calls": 6,
+      "reason": "方法整理完成",
+      "verified_steps": 1
+    }
+  ],
+  "followup": [
+    {
+      "task": "e5e85dad4f034212b2b3edc209d540a2",
+      "agent": "Retrieval",
+      "tool": "keyword_and_tfidf",
+      "elapsed_s": 0.0,
+      "calls": 0,
+      "scope": "步驟及方法章節",
+      "fragments": [
+        {
+          "id": 3,
+          "page": 2
+        },
+        {
+          "id": 4,
+          "page": 2
+        },
+        {
+          "id": 5,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "task": "e5e85dad4f034212b2b3edc209d540a2",
+      "agent": "Method Analysis",
+      "tool": "answer",
+      "elapsed_s": 0.0,
+      "calls": 1,
+      "status": "fixture"
+    },
+    {
+      "task": "e5e85dad4f034212b2b3edc209d540a2",
+      "agent": "Retrieval",
+      "tool": "keyword_and_tfidf",
+      "elapsed_s": 0.0,
+      "calls": 1,
+      "scope": "同篇全文",
+      "fragments": [
+        {
+          "id": 1,
+          "page": 1
+        },
+        {
+          "id": 2,
+          "page": 1
+        },
+        {
+          "id": 3,
+          "page": 2
+        },
+        {
+          "id": 4,
+          "page": 2
+        },
+        {
+          "id": 5,
+          "page": 2
+        },
+        {
+          "id": 6,
+          "page": 2
+        },
+        {
+          "id": 7,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "task": "e5e85dad4f034212b2b3edc209d540a2",
+      "agent": "Method Analysis",
+      "tool": "answer",
+      "elapsed_s": 0.0,
+      "calls": 2,
+      "status": "fixture"
+    },
+    {
+      "task": "e5e85dad4f034212b2b3edc209d540a2",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 0.0,
+      "calls": 2,
+      "label": "0",
+      "id": 2,
+      "page": 1,
+      "exact": true
+    },
+    {
+      "task": "e5e85dad4f034212b2b3edc209d540a2",
+      "agent": "Evidence Verification",
+      "tool": "check_support",
+      "elapsed_s": 0.0,
+      "calls": 3,
+      "status": "fixture"
+    },
+    {
+      "task": "e5e85dad4f034212b2b3edc209d540a2",
+      "agent": "Evidence Verification",
+      "tool": "support_result",
+      "elapsed_s": 0.0,
+      "calls": 3,
+      "checked": [
+        "0"
+      ],
+      "supported": [
+        "0"
+      ]
+    },
+    {
+      "task": "e5e85dad4f034212b2b3edc209d540a2",
+      "agent": "Controller",
+      "tool": "stop",
+      "elapsed_s": 0.0,
+      "calls": 3,
+      "reason": "追問完成"
+    }
+  ]
+}

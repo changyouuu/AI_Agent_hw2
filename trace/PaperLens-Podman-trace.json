@@ -1,0 +1,942 @@
+{
+  "analysis": [
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.094,
+      "calls": 0,
+      "page": 1,
+      "columns": 1,
+      "blocks": 11
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.183,
+      "calls": 0,
+      "page": 2,
+      "columns": 1,
+      "blocks": 7
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.288,
+      "calls": 0,
+      "page": 3,
+      "columns": 1,
+      "blocks": 11
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.39,
+      "calls": 0,
+      "page": 4,
+      "columns": 1,
+      "blocks": 7
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.491,
+      "calls": 0,
+      "page": 5,
+      "columns": 1,
+      "blocks": 10
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.585,
+      "calls": 0,
+      "page": 6,
+      "columns": 1,
+      "blocks": 10
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.654,
+      "calls": 0,
+      "page": 7,
+      "columns": 1,
+      "blocks": 11
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.744,
+      "calls": 0,
+      "page": 8,
+      "columns": 1,
+      "blocks": 12
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.83,
+      "calls": 0,
+      "page": 9,
+      "columns": 1,
+      "blocks": 11
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.902,
+      "calls": 0,
+      "page": 10,
+      "columns": 1,
+      "blocks": 26
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 0.956,
+      "calls": 0,
+      "page": 11,
+      "columns": 1,
+      "blocks": 2
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 1.036,
+      "calls": 0,
+      "page": 12,
+      "columns": 1,
+      "blocks": 7
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 1.105,
+      "calls": 0,
+      "page": 13,
+      "columns": 1,
+      "blocks": 18
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 1.206,
+      "calls": 0,
+      "page": 14,
+      "columns": 1,
+      "blocks": 8
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 1.286,
+      "calls": 0,
+      "page": 15,
+      "columns": 1,
+      "blocks": 14
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 1.37,
+      "calls": 0,
+      "page": 16,
+      "columns": 1,
+      "blocks": 12
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 1.461,
+      "calls": 0,
+      "page": 17,
+      "columns": 1,
+      "blocks": 16
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 1.556,
+      "calls": 0,
+      "page": 18,
+      "columns": 1,
+      "blocks": 10
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "PDF Processing",
+      "tool": "extract_page",
+      "elapsed_s": 1.598,
+      "calls": 0,
+      "page": 19,
+      "columns": 1,
+      "blocks": 8
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Controller",
+      "tool": "locate_by_heading",
+      "elapsed_s": 1.621,
+      "calls": 0,
+      "fragments": [
+        {
+          "id": 29,
+          "page": 3
+        }
+      ]
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Retrieval",
+      "tool": "keyword_and_tfidf",
+      "elapsed_s": 1.622,
+      "calls": 0,
+      "scope": "方法章節",
+      "fragments": [
+        {
+          "id": 30,
+          "page": 3
+        },
+        {
+          "id": 35,
+          "page": 4
+        },
+        {
+          "id": 37,
+          "page": 4
+        },
+        {
+          "id": 38,
+          "page": 4
+        },
+        {
+          "id": 39,
+          "page": 4
+        },
+        {
+          "id": 40,
+          "page": 4
+        },
+        {
+          "id": 51,
+          "page": 5
+        },
+        {
+          "id": 56,
+          "page": 6
+        }
+      ]
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Method Analysis",
+      "tool": "steps",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1980,
+        "completion_tokens": 808
+      }
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "0.what",
+      "id": 30,
+      "page": 3,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "0.why",
+      "id": 30,
+      "page": 3,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "0.why",
+      "page": 3,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "0.how",
+      "id": 35,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "1.what",
+      "id": 35,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "1.why",
+      "id": 37,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "1.why",
+      "page": 4,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "1.how",
+      "id": 38,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "2.what",
+      "id": 37,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "2.why",
+      "id": 38,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "2.why",
+      "page": 4,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "2.how",
+      "id": 38,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "3.what",
+      "id": 39,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "3.why",
+      "id": 39,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "3.why",
+      "page": 4,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "3.how",
+      "id": 39,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "4.what",
+      "id": 40,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "4.why",
+      "id": 40,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "4.why",
+      "page": 4,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "4.how",
+      "id": 40,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "5.what",
+      "id": 51,
+      "page": 5,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "5.why",
+      "id": 51,
+      "page": 5,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "5.why",
+      "page": 5,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "5.how",
+      "id": 51,
+      "page": 5,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "6.what",
+      "id": 56,
+      "page": 6,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "6.why",
+      "id": 56,
+      "page": 6,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "6.why",
+      "page": 6,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 126.298,
+      "calls": 1,
+      "label": "6.how",
+      "id": 56,
+      "page": 6,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_support",
+      "elapsed_s": 178.39,
+      "calls": 2,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 3079,
+        "completion_tokens": 87
+      }
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "support_result",
+      "elapsed_s": 178.39,
+      "calls": 2,
+      "checked": [
+        "0.what",
+        "0.how",
+        "1.what",
+        "1.how",
+        "2.what",
+        "2.how",
+        "3.what",
+        "3.how",
+        "4.what",
+        "4.how",
+        "5.what",
+        "5.how",
+        "6.what",
+        "6.how"
+      ],
+      "supported": [
+        "0.what",
+        "0.how",
+        "1.what",
+        "1.how",
+        "2.what",
+        "2.how",
+        "3.what",
+        "3.how",
+        "4.what",
+        "4.how",
+        "5.what",
+        "5.how",
+        "6.what",
+        "6.how"
+      ]
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Retrieval",
+      "tool": "keyword_and_tfidf",
+      "elapsed_s": 178.4,
+      "calls": 2,
+      "scope": "同篇全文",
+      "fragments": [
+        {
+          "id": 30,
+          "page": 3
+        },
+        {
+          "id": 35,
+          "page": 4
+        },
+        {
+          "id": 37,
+          "page": 4
+        },
+        {
+          "id": 38,
+          "page": 4
+        },
+        {
+          "id": 39,
+          "page": 4
+        },
+        {
+          "id": 40,
+          "page": 4
+        },
+        {
+          "id": 51,
+          "page": 5
+        },
+        {
+          "id": 56,
+          "page": 6
+        }
+      ]
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Method Analysis",
+      "tool": "repair_steps",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2591,
+        "completion_tokens": 285
+      }
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "0.why",
+      "id": 30,
+      "page": 3,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "0.why",
+      "page": 3,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "1.why",
+      "id": 37,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "1.why",
+      "page": 4,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "2.why",
+      "id": 38,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "2.why",
+      "page": 4,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "3.why",
+      "id": 39,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "3.why",
+      "page": 4,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "4.why",
+      "id": 40,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "4.why",
+      "page": 4,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "5.why",
+      "id": 51,
+      "page": 5,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "5.why",
+      "page": 5,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "6.why",
+      "id": 56,
+      "page": 6,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Evidence Verification",
+      "tool": "check_reason",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "label": "6.why",
+      "page": 6,
+      "status": "no_explicit_reason_marker"
+    },
+    {
+      "task": "722174eac23b411dad3e62349ecb55f4",
+      "agent": "Controller",
+      "tool": "stop",
+      "elapsed_s": 244.111,
+      "calls": 3,
+      "reason": "方法整理完成",
+      "verified_steps": 7
+    }
+  ],
+  "followup": [
+    {
+      "task": "4da0681382374ca09b21d3d1f4978ae9",
+      "agent": "Retrieval",
+      "tool": "keyword_and_tfidf",
+      "elapsed_s": 0.013,
+      "calls": 0,
+      "scope": "步驟及方法章節",
+      "fragments": [
+        {
+          "id": 42,
+          "page": 4
+        },
+        {
+          "id": 46,
+          "page": 5
+        },
+        {
+          "id": 50,
+          "page": 5
+        },
+        {
+          "id": 53,
+          "page": 5
+        },
+        {
+          "id": 59,
+          "page": 6
+        }
+      ]
+    },
+    {
+      "task": "4da0681382374ca09b21d3d1f4978ae9",
+      "agent": "Method Analysis",
+      "tool": "answer",
+      "elapsed_s": 18.541,
+      "calls": 1,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1056,
+        "completion_tokens": 77
+      }
+    },
+    {
+      "task": "4da0681382374ca09b21d3d1f4978ae9",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 18.541,
+      "calls": 1,
+      "label": "0",
+      "id": 42,
+      "page": 4,
+      "exact": true,
+      "reason": "source_found"
+    },
+    {
+      "task": "4da0681382374ca09b21d3d1f4978ae9",
+      "agent": "Evidence Verification",
+      "tool": "check_support",
+      "elapsed_s": 22.658,
+      "calls": 2,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 343,
+        "completion_tokens": 14
+      }
+    },
+    {
+      "task": "4da0681382374ca09b21d3d1f4978ae9",
+      "agent": "Evidence Verification",
+      "tool": "support_result",
+      "elapsed_s": 22.658,
+      "calls": 2,
+      "checked": [
+        "0"
+      ],
+      "supported": [
+        "0"
+      ]
+    },
+    {
+      "task": "4da0681382374ca09b21d3d1f4978ae9",
+      "agent": "Controller",
+      "tool": "stop",
+      "elapsed_s": 22.658,
+      "calls": 2,
+      "reason": "追問完成"
+    }
+  ],
+  "claims": 1,
+  "confirmed_what": 7
+}

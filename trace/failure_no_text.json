@@ -1,0 +1,20 @@
+[
+  {
+    "task": "89802fa48e6242e98b4aefeab71f6dca",
+    "agent": "PDF Processing",
+    "tool": "extract_page",
+    "elapsed_s": 0.0,
+    "calls": 0,
+    "page": 1,
+    "columns": 1,
+    "blocks": 0
+  },
+  {
+    "task": "89802fa48e6242e98b4aefeab71f6dca",
+    "agent": "Controller",
+    "tool": "stop",
+    "elapsed_s": 0.0,
+    "calls": 0,
+    "reason": "整份 PDF 無可用文字，可能是掃描型 PDF"
+  }
+]

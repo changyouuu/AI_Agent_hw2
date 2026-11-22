@@ -1,0 +1,44 @@
+{
+  "python": "3.12.14",
+  "system": "Windows-11-10.0.26200-SP0",
+  "pdfplumber": "0.11.9",
+  "model": "fixture",
+  "cases": [
+    {
+      "sample": "A",
+      "columns": 1,
+      "status": "pass",
+      "analysis_calls": 6,
+      "analysis_s": 0.032,
+      "followup_calls": 3,
+      "followup_s": 0.0
+    },
+    {
+      "sample": "B",
+      "columns": 1,
+      "status": "pass",
+      "analysis_calls": 6,
+      "analysis_s": 0.016,
+      "followup_calls": 3,
+      "followup_s": 0.0
+    },
+    {
+      "sample": "C",
+      "columns": 2,
+      "status": "pass",
+      "analysis_calls": 6,
+      "analysis_s": 0.032,
+      "followup_calls": 3,
+      "followup_s": 0.0
+    },
+    {
+      "sample": "D",
+      "columns": 2,
+      "status": "pass",
+      "analysis_calls": 6,
+      "analysis_s": 0.016,
+      "followup_calls": 3,
+      "followup_s": 0.0
+    }
+  ]
+}

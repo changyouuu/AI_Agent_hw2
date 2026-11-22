@@ -1,0 +1,116 @@
+[
+  {
+    "task": "a1f9276612cc4d11b41e4f0ba3c9821f",
+    "agent": "Retrieval",
+    "tool": "keyword_and_tfidf",
+    "elapsed_s": 0.0,
+    "calls": 0,
+    "scope": "步驟及方法章節",
+    "fragments": [
+      {
+        "id": 3,
+        "page": 2
+      },
+      {
+        "id": 4,
+        "page": 2
+      },
+      {
+        "id": 5,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "task": "a1f9276612cc4d11b41e4f0ba3c9821f",
+    "agent": "Method Analysis",
+    "tool": "answer",
+    "elapsed_s": 0.0,
+    "calls": 1,
+    "status": "fixture"
+  },
+  {
+    "task": "a1f9276612cc4d11b41e4f0ba3c9821f",
+    "agent": "Retrieval",
+    "tool": "keyword_and_tfidf",
+    "elapsed_s": 0.0,
+    "calls": 1,
+    "scope": "同篇全文",
+    "fragments": [
+      {
+        "id": 1,
+        "page": 1
+      },
+      {
+        "id": 2,
+        "page": 1
+      },
+      {
+        "id": 3,
+        "page": 2
+      },
+      {
+        "id": 4,
+        "page": 2
+      },
+      {
+        "id": 5,
+        "page": 2
+      },
+      {
+        "id": 6,
+        "page": 2
+      },
+      {
+        "id": 7,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "task": "a1f9276612cc4d11b41e4f0ba3c9821f",
+    "agent": "Method Analysis",
+    "tool": "answer",
+    "elapsed_s": 0.0,
+    "calls": 2,
+    "status": "fixture"
+  },
+  {
+    "task": "a1f9276612cc4d11b41e4f0ba3c9821f",
+    "agent": "Evidence Verification",
+    "tool": "check_quote",
+    "elapsed_s": 0.0,
+    "calls": 2,
+    "label": "0",
+    "id": 2,
+    "page": 1,
+    "exact": true
+  },
+  {
+    "task": "a1f9276612cc4d11b41e4f0ba3c9821f",
+    "agent": "Evidence Verification",
+    "tool": "check_support",
+    "elapsed_s": 0.0,
+    "calls": 3,
+    "status": "fixture"
+  },
+  {
+    "task": "a1f9276612cc4d11b41e4f0ba3c9821f",
+    "agent": "Evidence Verification",
+    "tool": "support_result",
+    "elapsed_s": 0.0,
+    "calls": 3,
+    "checked": [
+      "0"
+    ],
+    "supported": []
+  },
+  {
+    "task": "a1f9276612cc4d11b41e4f0ba3c9821f",
+    "agent": "Controller",
+    "tool": "stop",
+    "elapsed_s": 0.0,
+    "calls": 3,
+    "reason": "同篇論文中找不到足以回答問題的依據"
+  }
+]

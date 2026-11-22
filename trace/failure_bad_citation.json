@@ -1,0 +1,128 @@
+{
+  "initial": [
+    {
+      "task": "526a38945f564d338a92387b04b62fa0",
+      "agent": "Retrieval",
+      "tool": "keyword_and_tfidf",
+      "elapsed_s": 0.0,
+      "calls": 0,
+      "scope": "同篇全文",
+      "fragments": [
+        {
+          "id": 1,
+          "page": 1
+        },
+        {
+          "id": 2,
+          "page": 1
+        },
+        {
+          "id": 3,
+          "page": 2
+        },
+        {
+          "id": 4,
+          "page": 2
+        },
+        {
+          "id": 5,
+          "page": 2
+        },
+        {
+          "id": 6,
+          "page": 2
+        },
+        {
+          "id": 7,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "task": "526a38945f564d338a92387b04b62fa0",
+      "agent": "Method Analysis",
+      "tool": "locate",
+      "elapsed_s": 0.0,
+      "calls": 1,
+      "status": "fixture"
+    },
+    {
+      "task": "526a38945f564d338a92387b04b62fa0",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 0.0,
+      "calls": 1,
+      "label": "location_0",
+      "id": 4,
+      "page": 2,
+      "exact": false
+    },
+    {
+      "task": "526a38945f564d338a92387b04b62fa0",
+      "agent": "Controller",
+      "tool": "wait_for_range",
+      "elapsed_s": 0.0,
+      "calls": 1,
+      "reason": "請指定章節或 PDF 頁碼後再試一次"
+    }
+  ],
+  "retry": [
+    {
+      "task": "a9b5ee5a979546d3bd971bbc263dde2c",
+      "agent": "Retrieval",
+      "tool": "keyword_and_tfidf",
+      "elapsed_s": 0.0,
+      "calls": 0,
+      "scope": "使用者指定範圍",
+      "fragments": [
+        {
+          "id": 3,
+          "page": 2
+        },
+        {
+          "id": 4,
+          "page": 2
+        },
+        {
+          "id": 5,
+          "page": 2
+        },
+        {
+          "id": 6,
+          "page": 2
+        },
+        {
+          "id": 7,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "task": "a9b5ee5a979546d3bd971bbc263dde2c",
+      "agent": "Method Analysis",
+      "tool": "locate",
+      "elapsed_s": 0.0,
+      "calls": 1,
+      "status": "fixture"
+    },
+    {
+      "task": "a9b5ee5a979546d3bd971bbc263dde2c",
+      "agent": "Evidence Verification",
+      "tool": "check_quote",
+      "elapsed_s": 0.0,
+      "calls": 1,
+      "label": "location_0",
+      "id": 4,
+      "page": 2,
+      "exact": false
+    },
+    {
+      "task": "a9b5ee5a979546d3bd971bbc263dde2c",
+      "agent": "Controller",
+      "tool": "stop",
+      "elapsed_s": 0.0,
+      "calls": 1,
+      "reason": "指定範圍內仍找不到可驗證的方法原文"
+    }
+  ]
+}
