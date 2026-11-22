@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 論文方法工作台
 
 用本機 Ollama 整理英文論文的 What、Why、How，逐項查看英文引文與 PDF 實際頁碼。可以針對方法步驟追問，或從整篇公式索引查看候選算式和 PDF 原圖。
@@ -40,3 +41,7 @@ podman run --rm -p 127.0.0.1:8501:8501 -v paperlens-data:/data paperlens
 ## 驗證
 
 安裝 requirements.txt 與 reportlab 後，可執行 python verify_formulas.py 與 python verify_demo.py trace。前者驗證上下標、分式和 PDF 渲染。後者用固定模型回覆測試單欄、雙欄、證據驗證、追問與 SQLite。Ollama 真實模型與 Podman 容器尚未在打包環境驗證。
+=======
+# AI_Agent_hw2
+hw2
+>>>>>>> origin/main
